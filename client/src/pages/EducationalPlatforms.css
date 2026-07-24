@@ -1,0 +1,53 @@
+.platform-table{
+
+    width:100%;
+
+    margin-top:30px;
+
+    background:white;
+
+    border-collapse:collapse;
+
+    border-radius:12px;
+
+    overflow:hidden;
+
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.platform-table th{
+
+    background:#1f2a44;
+
+    color:white;
+
+    padding:16px;
+
+    text-align:left;
+}
+
+.platform-table td{
+
+    padding:16px;
+
+    border-bottom:1px solid #eee;
+}
+
+.platform-table tr:hover{
+
+    background:#f8f9fc;
+}
+
+.online{
+
+    color:green;
+
+    font-weight:bold;
+}
+
+.maintenance{
+
+    color:#f59e0b;
+
+    font-weight:bold;
+}

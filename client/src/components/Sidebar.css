@@ -1,0 +1,68 @@
+.sidebar{
+    position:fixed;
+    top:0;
+    left:0;
+    width:260px;
+    height:100vh;
+    background:#1f2a44;
+    color:white;
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.logo{
+    padding:25px 20px;
+    border-bottom:1px solid rgba(255,255,255,.15);
+}
+
+.logo h2{
+    font-size:22px;
+    line-height:1.4;
+}
+
+.menu{
+    list-style:none;
+    padding:20px 0;
+    margin:0;
+}
+
+.menu li{
+    margin:8px 12px;
+}
+
+.menu li a{
+    text-decoration:none;
+    color:white;
+    display:flex;
+    align-items:center;
+    gap:15px;
+    padding:14px 16px;
+    border-radius:10px;
+    transition:.3s;
+}
+
+.menu li a:hover{
+    background:#2563eb;
+}
+
+.menu li.active a{
+    background:#2563eb;
+}
+
+.icon{
+    font-size:18px;
+}
+
+.logout{
+    padding:20px;
+    border-top:1px solid rgba(255,255,255,.15);
+}
+
+.logout a{
+    color:white;
+    text-decoration:none;
+    display:flex;
+    align-items:center;
+    gap:15px;
+}

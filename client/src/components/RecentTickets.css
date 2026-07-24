@@ -1,0 +1,43 @@
+.recent-tickets{
+    background:white;
+    margin-top:30px;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,.08);
+}
+
+.recent-tickets h2{
+    margin-bottom:20px;
+    color:#1f2a44;
+}
+
+.recent-tickets table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+.recent-tickets th,
+.recent-tickets td{
+    padding:14px;
+    border-bottom:1px solid #eee;
+    text-align:left;
+}
+
+.recent-tickets th{
+    background:#f5f7fb;
+}
+
+.open{
+    color:#f59e0b;
+    font-weight:bold;
+}
+
+.progress{
+    color:#2563eb;
+    font-weight:bold;
+}
+
+.closed{
+    color:#16a34a;
+    font-weight:bold;
+}
